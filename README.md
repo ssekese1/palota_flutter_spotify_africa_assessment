@@ -6,7 +6,7 @@ Palota assessment starter project | Palota Spotify Africa (Afro Category) Assess
 
 ## Getting Started
 
-[Fork this repo](https://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/fork) into your own Github account so you can make changes. Alternatively, you can clone the project and upload it to your own repo so it does not show the link back to this repo.
+[Use this repo as a template](ttps://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/generate) or [fork this repo](https://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/fork) into your own Github account so you can make changes. Alternatively, you can clone the project and upload it to your own repo so it does not show the link back to this repo.
 
 ## The assessment
 
@@ -65,6 +65,8 @@ N.B. The designs repeat some values as they are just for illustration. In your c
 
 ## Submission
 Once done with the tasks, commit all your code and push it to your forked remote github repository. Submit a link to your forked repo (with relevant branch - ideally master) to the email which will be provided to you separately when the assessment is assigned to you. 
+
+**Important: Make sure your app compiles and runs before submitting**
 
 ---
 
