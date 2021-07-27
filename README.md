@@ -6,7 +6,7 @@ Palota assessment starter project | Palota Spotify Africa (Afro Category) Assess
 
 ## Getting Started
 
-[Use this repo as a template](ttps://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/generate) or [fork this repo](https://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/fork) into your own Github account so you can make changes. Alternatively, you can clone the project and upload it to your own repo so it does not show the link back to this repo.
+[Use this repo as a template](https://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/generate) or [fork this repo](https://github.com/PalotaCompany/palota_flutter_spotify_africa_assessment/fork) into your own Github account so you can make changes. Alternatively, you can clone the project and upload it to your own repo so it does not show the link back to this repo.
 
 ## The assessment
 
