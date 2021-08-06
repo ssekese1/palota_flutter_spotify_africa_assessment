@@ -18,7 +18,7 @@ class LandingPage extends StatelessWidget {
           callback: (String _) {
             // wait 1 second before navigating (artificial delay for effect)
             Future.delayed(Duration(seconds: 1)).then(
-              (value) => _navigateToSpotifyPlaylistPage(context),
+              (value) => _navigateToSpotifyCategoryPage(context),
             );
           },
         ),
@@ -26,7 +26,7 @@ class LandingPage extends StatelessWidget {
     );
   }
 
-  void _navigateToSpotifyPlaylistPage(BuildContext context) {
+  void _navigateToSpotifyCategoryPage(BuildContext context) {
     // replace because we don't want to navigate back to the landing screen
     Navigator.of(context).pushReplacementNamed(AppRoutes.spotifyCategory,
         arguments: _spotifyCategoryId);
