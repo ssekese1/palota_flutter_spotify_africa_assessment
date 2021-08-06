@@ -27,6 +27,8 @@ dependencies:
   flare_flutter: ^3.0.1
   package_info: ^2.0.2
   url_launcher: ^6.0.9
+  http: ^0.13.3
+  flutter_dotenv: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +47,7 @@ flutter:
   assets:
     - assets/animations/palota_intro.flr
     - assets/images/logo_white.png
+    - .env
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spotify_africa_assessment/features/about/presentation/pages/about.dart';
 import 'package:flutter_spotify_africa_assessment/features/landing/presentation/pages/landing.dart';
 import 'package:flutter_spotify_africa_assessment/features/spotify/presentation/pages/spotify_category.dart';
+import 'package:flutter_spotify_africa_assessment/features/spotify/presentation/pages/spotify_playlist.dart';
 
 class AppRoutes {
   /// App start up (loading) page
@@ -12,6 +13,7 @@ class AppRoutes {
 
   /// Spotify Category Page
   static const String spotifyCategory = '/spotify/category';
+  static const String spotifyPlaylist = '/spotify/playlist';
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -28,9 +30,14 @@ class AppRoutes {
       case spotifyCategory:
         final String categoryId = settings.arguments as String;
         return MaterialPageRoute(
-          builder: (BuildContext context) => SpotifyCategory(
+          builder: (BuildContext context) => SpotifyCategoryPage(
             categoryId: categoryId,
           ),
+          settings: settings,
+        );
+      case spotifyPlaylist:
+        return MaterialPageRoute(
+          builder: (BuildContext context) => SpotifyPlaylistPage(),
           settings: settings,
         );
       /* TODO: handle other routes
